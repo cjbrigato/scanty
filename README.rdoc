@@ -1,9 +1,10 @@
 = Scanty, a really small blog
 
+Rewritten for compatibility with Synatra >= 1.0
+
 == Overview
 
-Scanty is blogging software.  Software for my blog, to be exact:
-http://adam.blog.heroku.com
+Scanty is blogging software.
 
 It is not a blogging engine, but it's small and easy to modify, so it could be
 the starting point for your blog, too.
@@ -82,6 +83,3 @@ Patches contributed by: Christopher Swenson, S. Brent Faulkner, and Stephen Eley
 Released under the MIT License: http://www.opensource.org/licenses/mit-license.php
 
 http://github.com/adamwiggins/scanty
-
-http://adam.blog.heroku.com
-
