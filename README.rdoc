@@ -1,7 +1,7 @@
 = Scanty, a really small blog
 
-Rewritten for compatibility with Synatra >= 1.0
-Rewritten for compatibility with Unvendored Sequel (Schema plugin)
+* Rewritten for compatibility with Synatra >= 1.0
+* Rewritten for compatibility with Unvendored Gems (Schema sequel plugin, fixed Maruku's bugs...)
 
 == Overview
 
