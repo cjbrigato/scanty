@@ -3,16 +3,15 @@ body {
 	padding: 20px;
 	margin-left: 50px;
 	background: #0A0A0D;
-	text-align: justify;
 	font: 14px "Trebuchet MS", Arial, Helvetica, sans-serif;
-	color: #FFFFDC;
+	color: #ccc;
 }
 
 h1, h2, h3 {
 	font: 1.82em;
-	font-weight: normal;
+	font-weight: bold;
 	font-family: Arial, Helvetica, sans-serif;
-	color: #FFFFFF;
+	color: #35c;
 	text-align: left;
 }
 
@@ -25,11 +24,12 @@ ul {
 }
 
 a {
-	color: #828170;
+	color: #57c;
+	text-decoration: none;
 }
 
 a:hover {
-	text-decoration: none;
+	text-decoration: underline;
 }
 
 hr {
@@ -148,7 +148,7 @@ hr {
 }
 
 .post .title a {
-	color: white;
+	color: #35c;
 	text-decoration: none;
 }
 
@@ -157,11 +157,11 @@ hr {
 	padding: 0;
 	line-height:normal;
 	text-transform: uppercase;
-	color: #979680;
+	color: #666;
 }
 
 .post .meta a {
-	color: #828170;
+	color: #666;
 }
 
 .post .entry {
@@ -189,7 +189,7 @@ hr {
 .postzoom .title {
 	margin: 0;
 	padding: 0px 0 0 0;
-	font-size: 3em;
+	font-size: 2.5em;
 }
 
 .postzoom .meta {
@@ -197,7 +197,11 @@ hr {
 	padding: 0;
 	line-height: normal;
 	text-transform: uppercase;
-	color: #979680;
+	color: #666;
+}
+
+.postzoom .meta a {
+	color: #666;
 }
 
 .postzoom .entry {
@@ -235,7 +239,7 @@ hr {
 /* Archive */
 .archive .date {
 	font-size: 85%;
-	color: #828170;
+	color: #666;
 }
 
 .archive .title a {
@@ -250,7 +254,7 @@ pre {
 	font-family: Monaco, monospace;
 	color: #ccc;
 	background: #000;
-	border-left: 6px solid #222;
+	border: 2px solid #222;
 	padding: 0.4em;
 	padding-left: 0.8em;
 }
@@ -288,4 +292,3 @@ form[name=edit] textarea {
 	width: 50em;
 	height: 25em;
 }
-
